@@ -44,7 +44,7 @@ BOARD_VENDOR := $(or $(word 2,$(subst /, ,$(firstword $(MAKEFILE_LIST)))),$(valu
 
 PRODUCT_DEVICE := aston
 PRODUCT_NAME := $(CUSTOM_VENDOR)_$(PRODUCT_DEVICE)
-PRODUCT_MODEL := CPH2611 # according to getprop | grep model in twrp
+PRODUCT_MODEL := CPH2609 # according to getprop | grep model in twrp
 PRODUCT_SYSTEM_NAME := $(PRODUCT_MODEL)
 PRODUCT_SYSTEM_DEVICE := OP5D35L1
 PRODUCT_BRAND := $(BOARD_VENDOR)
