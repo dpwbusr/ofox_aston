@@ -42,11 +42,11 @@ BOARD_VENDOR := $(or $(word 2,$(subst /, ,$(firstword $(MAKEFILE_LIST)))),$(valu
 
 ## Device identifier. This must come after all inclusions
 
-PRODUCT_DEVICE := salami
+PRODUCT_DEVICE := aston
 PRODUCT_NAME := $(CUSTOM_VENDOR)_$(PRODUCT_DEVICE)
-PRODUCT_MODEL := CPH2449
+PRODUCT_MODEL := CPH2609
 PRODUCT_SYSTEM_NAME := $(PRODUCT_MODEL)
-PRODUCT_SYSTEM_DEVICE := OP594DL1
+PRODUCT_SYSTEM_DEVICE := OP5D35L1
 PRODUCT_BRAND := $(BOARD_VENDOR)
 PRODUCT_MANUFACTURER := $(PRODUCT_BRAND)
 
@@ -58,8 +58,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 COMMON_PATH := device/oneplus/sm85xx-common
 
 # Device path for OEM device tree
-DEVICE_PATH := device/oneplus/salami
+DEVICE_PATH := device/oneplus/aston
 
 # Inherit from hardware-specific part of the product configuration
-$(call inherit-product, $(DEVICE_PATH)/device-salami.mk)
+$(call inherit-product, $(DEVICE_PATH)/device-aston.mk)
 
