@@ -62,13 +62,13 @@ case $region in
         ;;
     "22")
     #Europe
-            resetprop ro.product.device "OP594DL1"
-            resetprop ro.product.odm.device "OP594DL1"
-            resetprop ro.product.product.device "OP594DL1"
-            resetprop ro.product.device "OP594DL1"
-            resetprop ro.product.system_ext.device "OP594DL1"
-            resetprop ro.product.vendor.device "OP594DL1"
-            resetprop ro.product.product.model "CPH2449"
+            resetprop ro.product.device "OP5D35L1"
+            resetprop ro.product.odm.device "OP5D35L1"
+            resetprop ro.product.product.device "OP5D35L1"
+            resetprop ro.product.device "OP5D35L1"
+            resetprop ro.product.system_ext.device "OP5D35L1"
+            resetprop ro.product.vendor.device "OP5D35L1"
+            resetprop ro.product.product.model "CPH2611"
             resetprop ro.boot.hardware.revision "EU"
         ;;
     "23")

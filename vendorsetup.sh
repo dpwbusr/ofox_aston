@@ -2,14 +2,15 @@ export TARGET_ARCH="arm64-v8a"
 
 # Some about us
 export FOX_VERSION="R11.1"
-export OF_MAINTAINER=Wishmasterflo
+# export OF_MAINTAINER=Wishmasterflo
+export OF_MAINTAINER=raz
 
 # Build environment stuffs
-export FOX_BUILD_DEVICE="OnePlus11"
+export FOX_BUILD_DEVICE="OnePlus12R" # from 11
 export ALLOW_MISSING_DEPENDENCIES=true
 export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
-export TARGET_DEVICE_ALT="salami, Salami, OnePlus11, OnePlus 11, OP591BL1, OP594DL1"
-export FOX_TARGET_DEVICES="salami, Salami, OnePlus11, OnePlus 11, OP591BL1, OP594DL1"
+export TARGET_DEVICE_ALT="aston, Aston, OnePlus12R, OnePlus 12R, OP5D35L1" # from "salami, Salami, OnePlus11, OnePlus 11, OP591BL1, OP594DL1"
+export FOX_TARGET_DEVICES="aston, Aston, OnePlus12R, OnePlus 12R, OP5D35L1,"
 export BUILD_USERNAME="nobody"
 export BUILD_HOSTNAME="android-build"
 
@@ -27,7 +28,7 @@ export OF_STATUS_INDENT_LEFT=48
 export OF_STATUS_INDENT_RIGHT=48
 export OF_ALLOW_DISABLE_NAVBAR=0
 export OF_CLOCK_POS=0
-export OF_SCREEN_H=2400
+export OF_SCREEN_H=2376 # from 2400
 export OF_STATUS_H=120
 
 # Device stuff
